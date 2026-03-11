@@ -1,7 +1,7 @@
 ---
-title: "The 70 FPS Standard: Why Performance is the Ultimate User Experience"
+title: "Test"
 date: 2026-03-18
-author: "RadixArk Tools & Design Lab"
+author: "Ignasius Nindra"
 tags: ["performance", "ux"]
 description: "Why 70 FPS is the new baseline for interactive systems and how to get there."
 ---
