@@ -1,82 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/</link>
-    <description>Recent content in Blogs on RadixArk Blog</description>
+    <title>Blog on RadixArk Blog</title>
+    <link>http://localhost:55504/blog/</link>
+    <description>Recent content in Blog on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55504/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debug Post</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/debug-post/</link>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/debug-post/</guid>
-      <description>&lt;p&gt;This is a simple debug post to verify that Hugo is reading content files.&lt;/p&gt;</description>
+      <title>Consistent Hashing in Load Balancers</title>
+      <link>http://localhost:55504/blog/10-relativity-tensors/</link>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/10-relativity-tensors/</guid>
+      <description>&lt;p&gt;When distributing millions of cache objects (like user sessions or image blobs) across \( N \) database servers, the simplest method is a modulo hash function:&lt;/p&gt;&#xA;$$&#xA;\text{server\_idx} = \text{hash}(\text{object\_key}) \pmod{N}&#xA;$$&lt;h3 id=&#34;the-rehashing-problem&#34;&gt;The Rehashing Problem&lt;/h3&gt;&#xA;&lt;p&gt;The equation above works perfectly until a server crashes, changing \( N \) to \( N-1 \). Suddenly, almost every object hashes to a completely different index. This causes massive cache misses and traffic spikes known as a &amp;ldquo;thundering herd.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Era of the Inference Engine: How RadixArk is Scaling the Next Generation of Intelligence</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/era-of-inference/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/era-of-inference/</guid>
-      <description>&lt;p&gt;Inference is quietly becoming the center of modern software. What used to be static interfaces and fixed flows are now continuously adapting systems that synthesize, route, and respond in real time.&lt;/p&gt;&#xA;&lt;p&gt;At RadixArk we think of an inference engine not as a single model, but as a coordinated stack: routing, memory, evaluation, observability, and human‑centered design layered together.&lt;/p&gt;&#xA;&lt;p&gt;This article walks through how we scale that stack—from single‑tenant prototypes to multi‑tenant, high‑availability systems that can power entire product lines.&lt;/p&gt;</description>
+      <title>Grover&#39;s Algorithm: Quantum Database Search</title>
+      <link>http://localhost:55504/blog/09-bellman-equation/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/09-bellman-equation/</guid>
+      <description>&lt;p&gt;If you have an unsorted database with \( N \) entries, a classical linear search takes \( O(N) \) time. In 1996, Lov Grover introduced a quantum algorithm that performs this search in \( O(\sqrt{N}) \) time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;amplitude-amplification&#34;&gt;Amplitude Amplification&lt;/h3&gt;&#xA;&lt;p&gt;Let \( N = 2^n \) be the size of the search space, defined by an index \( x \in \{0, 1\}^n \). Let \( \omega \) be the target item we are searching for. We define an oracle function \( f(x) \):&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Backbone of Intelligence: Why Infrastructure‑First is the Future of AI</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</link>
-      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/backbone-of-intelligence/</guid>
-      <description>&lt;p&gt;Model quality is only half the story. Without strong infrastructure, intelligent products become fragile, expensive, and impossible to iterate.&lt;/p&gt;&#xA;&lt;p&gt;We design infrastructure‑first: observability, safety, routing, and data pipelines that make experimentation cheap and failures graceful.&lt;/p&gt;&#xA;&lt;p&gt;For teams shipping AI‑native products, this backbone becomes the real differentiator.&lt;/p&gt;</description>
+      <title>The Fast Fourier Transform in Audio Codecs</title>
+      <link>http://localhost:55504/blog/08-rsa-cryptography/</link>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/08-rsa-cryptography/</guid>
+      <description>&lt;p&gt;Transmitting raw, uncompressed audio waves over the internet requires immense bandwidth. Software engineering solves this through Digital Signal Processing. To compress audio mathematically, we convert it from the Time Domain into the Frequency Domain.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-discrete-fourier-transform-dft&#34;&gt;The Discrete Fourier Transform (DFT)&lt;/h3&gt;&#xA;&lt;p&gt;The DFT converts a finite sequence of equally-spaced samples \( x_n \) into a same-length sequence of complex numbers \( X_k \) representing sinusoidal frequencies:&lt;/p&gt;&#xA;$$&#xA;X_k = \sum_{n=0}^{N-1} x_n \cdot e^{-i 2\pi k n / N} \quad k = 0, \dots, N-1&#xA;$$&lt;p&gt;Calculating this naively in software takes \( O(N^2) \) operations. For a standard 44.1kHz audio stream, this would destroy CPU performance.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>New test Blog</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/new-blog-test/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/new-blog-test/</guid>
-      <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;&#xA;&lt;p&gt;This is an inline \(a^*=x-b^*\) equation.&lt;/p&gt;&#xA;&lt;p&gt;These are block equations:&lt;/p&gt;&#xA;\[a^*=x-b^*\]\[ a^*=x-b^* \]\[&#xA;a^*=x-b^*&#xA;\]&lt;p&gt;These are also block equations:&lt;/p&gt;</description>
+      <title>Graph Theory in Network Routing (Dijkstra)</title>
+      <link>http://localhost:55504/blog/07-fourier-transform/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/07-fourier-transform/</guid>
+      <description>&lt;p&gt;Every time an HTTP request leaves your device, it traverses a complex graph of autonomous systems. Protocols like OSPF use Dijkstra&amp;rsquo;s algorithm to calculate the absolute shortest path mathematically.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-weighted-graph&#34;&gt;The Weighted Graph&lt;/h3&gt;&#xA;&lt;p&gt;Let the network be a weighted directed graph \( G = (V, E) \), where \( V \) is the set of router nodes and \( E \) is the set of edges (fiber links). The weight function maps edges to real-number costs, often based on latency or bandwidth:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Test</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/test/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/test/</guid>
-      <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;&#xA;&lt;p&gt;This is an inline \(a^*=x-b^*\) equation.&lt;/p&gt;&#xA;&lt;p&gt;These are block equations:&lt;/p&gt;&#xA;\[a^*=x-b^*\]\[ a^*=x-b^* \]\[&#xA;a^*=x-b^*&#xA;\]&lt;p&gt;These are also block equations:&lt;/p&gt;</description>
+      <title>Quorum Consensus: The Math of Distributed Systems</title>
+      <link>http://localhost:55504/blog/06-thermodynamics-entropy/</link>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/06-thermodynamics-entropy/</guid>
+      <description>&lt;p&gt;When deploying databases globally, network partitions are inevitable. The CAP theorem guarantees we must choose between Consistency and Availability. To ensure strong consistency without a single point of failure, software utilizes Quorum Consensus.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-quorum-intersection-property&#34;&gt;The Quorum Intersection Property&lt;/h3&gt;&#xA;&lt;p&gt;For a system with \( N \) total replica nodes, we define a Read Quorum \( R \) and a Write Quorum \( W \). To ensure that every read operation sees the most recent write, the system must satisfy the intersection equation:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The 70 FPS Standard: Why Performance is the Ultimate User Experience</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/seventy-fps-standard/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/seventy-fps-standard/</guid>
-      <description>&lt;p&gt;Users rarely say &amp;ldquo;thank you&amp;rdquo; for performance—but they always feel its absence.&lt;/p&gt;&#xA;&lt;p&gt;We argue that 70 FPS is the new baseline for interactive systems, and walk through the architectural and design decisions required to get there.&lt;/p&gt;&#xA;&lt;p&gt;From render pipelines to perceived latency tricks, this piece is a tour of the performance mindset inside RadixArk.&lt;/p&gt;</description>
+      <title>Elliptic Curve Cryptography in HTTPS</title>
+      <link>http://localhost:55504/blog/05-information-theory/</link>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/05-information-theory/</guid>
+      <description>&lt;p&gt;While RSA dominated early internet security, modern TLS/HTTPS certificates almost exclusively use Elliptic Curve Cryptography (ECC) because it provides the same security with significantly smaller key sizes, saving bandwidth and CPU cycles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-algebraic-curve&#34;&gt;The Algebraic Curve&lt;/h3&gt;&#xA;&lt;p&gt;An elliptic curve over a finite field \( \mathbb{F}_p \) is defined by the Weierstrass equation:&lt;/p&gt;&#xA;$$&#xA;y^2 = x^3 + ax + b \pmod{p}&#xA;$$&lt;p&gt;Where \( 4a^3 + 27b^2 \neq 0 \) (ensuring no singular points).&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Grammar of Design: Why Professional Precision is the Secret to Creative Success</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/grammar-of-design/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/grammar-of-design/</guid>
-      <description>&lt;p&gt;Most teams treat design as a mood, not a language. But the products that age well are built on a precise grammar: grids, rhythm, typography, motion, and tone all working together.&lt;/p&gt;&#xA;&lt;p&gt;A small set of strong constraints can unlock more creativity, not less—and professional craft becomes the best multiplicative force you can add to an ambitious roadmap.&lt;/p&gt;&#xA;&lt;p&gt;This piece shares practical patterns we use at RadixArk to keep complex systems visually calm, legible, and fast to navigate.&lt;/p&gt;</description>
+      <title>Stochastic Gradient Descent and Adam</title>
+      <link>http://localhost:55504/blog/04-gradient-descent/</link>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/04-gradient-descent/</guid>
+      <description>&lt;p&gt;Training a massive neural network requires navigating a high-dimensional loss landscape to find the global minimum. We don&amp;rsquo;t solve this analytically; we use iterative software algorithms.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-gradient-descent-loop&#34;&gt;The Gradient Descent Loop&lt;/h3&gt;&#xA;&lt;p&gt;Given a software cost function \( J(\theta) \), the system computes the partial derivatives (gradients) using Backpropagation and updates the weights:&lt;/p&gt;&#xA;$$&#xA;\theta_{t+1} = \theta_t - \eta \nabla J(\theta_t)&#xA;$$&lt;h3 id=&#34;the-adam-optimizer&#34;&gt;The Adam Optimizer&lt;/h3&gt;&#xA;&lt;p&gt;Vanilla gradient descent is slow and gets stuck in local minima. Modern Deep Learning frameworks (TensorFlow, PyTorch) default to the Adam (Adaptive Moment Estimation) optimizer.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Power of Compounding: Why Systems Beat Intensity in Product and Finance</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/power-of-compounding/</link>
-      <pubDate>Tue, 17 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/power-of-compounding/</guid>
-      <description>&lt;p&gt;Compounding is not just a financial idea; it is a product idea. The teams that win are the ones that design feedback loops instead of one‑off launches.&lt;/p&gt;&#xA;&lt;p&gt;Compounding shows up in onboarding, activation, retention, infrastructure, and pricing—and small, consistent improvements beat occasional heroic sprints.&lt;/p&gt;&#xA;&lt;p&gt;If you are building long‑lived products, this shift in perspective changes how you prioritize almost everything.&lt;/p&gt;</description>
+      <title>The Rendering Equation in Computer Graphics</title>
+      <link>http://localhost:55504/blog/03-quantum-error-correction/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/03-quantum-error-correction/</guid>
+      <description>&lt;p&gt;Modern video games and VFX engines (like Unreal Engine) have shifted from rasterization to real-time Ray Tracing. This entire industry is built upon simulating light, governed by a single, recursive integral equation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-rendering-equation&#34;&gt;The Rendering Equation&lt;/h3&gt;&#xA;&lt;p&gt;Introduced by James Kajiya in 1986, it calculates the total amount of light \( L_o \) leaving a point \( x \) on a surface in direction \( \omega_o \):&lt;/p&gt;&#xA;$$&#xA;L_o(x, \omega_o, \lambda, t) = L_e(x, \omega_o, \lambda, t) + \int_{\Omega} f_r(x, \omega_i, \omega_o, \lambda, t) L_i(x, \omega_i, \lambda, t) (\omega_i \cdot n) d\omega_i&#xA;$$&lt;p&gt;Where:&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Architecture of Focus: Why Less is More in Modern Product Design</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/architecture-of-focus/</link>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/architecture-of-focus/</guid>
-      <description>&lt;p&gt;Great products are not the ones with the most surface area; they are the ones with the highest density of meaning per pixel.&lt;/p&gt;&#xA;&lt;p&gt;This article breaks down how to design interfaces that respect attention: from contrast and motion to information hierarchy and micro‑copy.&lt;/p&gt;&#xA;&lt;p&gt;The result is not minimalism for its own sake, but a product that feels fast, clear, and quietly powerful.&lt;/p&gt;</description>
+      <title>Cost Models in Relational Databases</title>
+      <link>http://localhost:55504/blog/02-navier-stokes/</link>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/02-navier-stokes/</guid>
+      <description>&lt;p&gt;When you execute a &lt;code&gt;SELECT&lt;/code&gt; statement SQL query, the database engine doesn&amp;rsquo;t just run it. It builds an Abstract Syntax Tree and calculates the &amp;ldquo;cost&amp;rdquo; of multiple execution plans using mathematical heuristics.&lt;/p&gt;&#xA;&lt;h3 id=&#34;disk-io-vs-cpu-cost&#34;&gt;Disk I/O vs CPU Cost&lt;/h3&gt;&#xA;&lt;p&gt;The total cost of a query plan is typically modeled as a linear combination of physical disk reads and CPU operations:&lt;/p&gt;&#xA;$$&#xA;\text{Cost} = (W_{\text{io}} \cdot N_{\text{pages}}) + (W_{\text{cpu}} \cdot N_{\text{tuples}})&#xA;$$&lt;p&gt;Where \( W_{\text{io}} \) is the assigned weight for fetching a page from disk, and \( W_{\text{cpu}} \) is the weight for evaluating a tuple in memory.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Ghost in the Machine: Bringing High‑Level Logic with Human‑Centric Design</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/ghost-in-the-machine/</link>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/blog/ghost-in-the-machine/</guid>
-      <description>&lt;p&gt;The best automation does not feel like automation at all; it feels like a collaborator who anticipates what you are trying to do.&lt;/p&gt;&#xA;&lt;p&gt;This article explores how to express high‑level logic in interfaces without overwhelming people, and how AI can stay legible, steerable, and trustworthy.&lt;/p&gt;&#xA;&lt;p&gt;If you are designing with intelligent systems, this piece is a field guide to keeping humans in the loop in a respectful way.&lt;/p&gt;</description>
+      <title>The Mathematics of Transformer Topologies</title>
+      <link>http://localhost:55504/blog/01-attention-mechanisms/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/01-attention-mechanisms/</guid>
+      <description>&lt;p&gt;At RadixArk, our inference engine is built around the fundamental mathematical operations of Large Language Models (LLMs). The core of these models—from GPT to BERT—is the Transformer architecture.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-core-equation&#34;&gt;The Core Equation&lt;/h3&gt;&#xA;&lt;p&gt;The hardware must optimize the execution of Scaled Dot-Product Attention. Instead of processing sequence data linearly like RNNS, Transformers compute relationships globally:&lt;/p&gt;&#xA;$$&#xA;\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V&#xA;$$&lt;p&gt;Where \( Q \), \( K \), and \( V \) represent the Query, Key, and Value matrices respectively, and \( d_k \) is the embedding dimension.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

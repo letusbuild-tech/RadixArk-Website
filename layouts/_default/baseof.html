@@ -4,34 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ if .Title }}{{ .Title }} · {{ end }}RadixArk Blog</title>
-    <link rel="stylesheet" href="{{ "styles.css" | relURL }}" />
+    <link rel="stylesheet" href="{{ "styles.css" | absURL }}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   {{ if .Param "math" }}
     {{ partialCached "math.html" . }}
   {{ end }}
-  <body>
-    <div class="page{{ if .IsHome }}{{ else }} page-detail{{ end }}">
-      <header class="page-header">
-        {{ if not .IsHome }}
-          <a href="{{ "/" | relURL }}" class="back-link">← Back to all articles</a>
-        {{ end }}
-        <div class="logo-mark" aria-hidden="true"></div>
-        <div class="page-eyebrow">
-          {{ if .IsHome }}
-            News &amp; Blog at <span class="brand">{{ site.Params.brand }}</span>
-          {{ else }}
-            RadixArk · Insight
-          {{ end }}
-        </div>
-        {{ if .IsHome }}
-          <p class="page-subtitle">
-            New intent in technology, awareness, and updates.
-          </p>
-        {{ end }}
-      </header>
-
+  {{ $homeURL := replaceRE "^(https?://[^/]+).*$" "$1/" site.BaseURL }}
+  <body class="{{ if eq .Section "blog" }}blog-page{{ end }}">
+    {{ if eq .Section "blog" }}
       {{ block "main" . }}{{ end }}
-    </div>
+    {{ else }}
+      <div class="page{{ if .IsHome }}{{ else }} page-detail{{ end }}">
+        <header class="page-header">
+          {{ if not .IsHome }}
+            <a href="{{ if and (eq .Section "blog") .IsPage }}{{ "blog/" | relURL }}{{ else }}{{ $homeURL }}{{ end }}" class="back-link">{{ if and (eq .Section "blog") .IsPage }}← Back to blog{{ else }}← Back to home{{ end }}</a>
+          {{ end }}
+          <div class="logo-mark" aria-hidden="true"></div>
+          <div class="page-eyebrow">
+            {{ if .IsHome }}
+              News &amp; Blog at <span class="brand">{{ site.Params.brand }}</span>
+            {{ else if eq .Section "blog" }}
+              <a href="{{ $homeURL }}" style="color:inherit;text-decoration:none;">RadixArk</a> · Blog
+            {{ else }}
+              RadixArk · Insight
+            {{ end }}
+          </div>
+          {{ if .IsHome }}
+            <p class="page-subtitle">
+              New intent in technology, awareness, and updates.
+            </p>
+          {{ end }}
+        </header>
+
+        {{ block "main" . }}{{ end }}
+      </div>
+    {{ end }}
   </body>
 </html>
 

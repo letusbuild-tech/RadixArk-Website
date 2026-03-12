@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rendering on RadixArk Blog</title>
+    <link>http://localhost:55504/tags/rendering/</link>
+    <description>Recent content in Rendering on RadixArk Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55504/tags/rendering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rendering Equation in Computer Graphics</title>
+      <link>http://localhost:55504/blog/03-quantum-error-correction/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/03-quantum-error-correction/</guid>
+      <description>&lt;p&gt;Modern video games and VFX engines (like Unreal Engine) have shifted from rasterization to real-time Ray Tracing. This entire industry is built upon simulating light, governed by a single, recursive integral equation.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-rendering-equation&#34;&gt;The Rendering Equation&lt;/h3&gt;&#xA;&lt;p&gt;Introduced by James Kajiya in 1986, it calculates the total amount of light \( L_o \) leaving a point \( x \) on a surface in direction \( \omega_o \):&lt;/p&gt;&#xA;$$&#xA;L_o(x, \omega_o, \lambda, t) = L_e(x, \omega_o, \lambda, t) + \int_{\Omega} f_r(x, \omega_i, \omega_o, \lambda, t) L_i(x, \omega_i, \lambda, t) (\omega_i \cdot n) d\omega_i&#xA;$$&lt;p&gt;Where:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

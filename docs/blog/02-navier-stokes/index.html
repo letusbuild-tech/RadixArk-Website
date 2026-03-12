@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cost Models in Relational Databases · RadixArk Blog</title>
+    <link rel="stylesheet" href="http://localhost:55504/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+  
+  
+  <body class="blog-page">
+    
+      
+
+
+<nav class="blog-navbar">
+  <a href="http://localhost:55504/">
+    <img src="/landing/images/RadixArk-Wordmark-Full.svg" alt="RadixArk" class="blog-navbar-logo">
+  </a>
+  <a href="https://platform.radixark.ai/waitlist" target="_blank" rel="noopener noreferrer" class="blog-navbar-cta">Sign Up</a>
+</nav>
+
+<section class="framer-blog-section framer-detail-section blog-navbar-offset">
+  
+  <div class="framer-background-glow framer-left-glow"></div>
+  <div class="framer-background-glow framer-right-glow"></div>
+  <div class="framer-background-glow framer-top-glow"></div>
+
+  <div class="framer-container framer-detail-container">
+    <header class="framer-header framer-detail-header">
+      <a href="/blog/" class="framer-back-link">← Back to blog</a>
+      <a href="http://localhost:55504/" style="display:block; text-decoration:none;">
+        <img src="/brand.png" alt="RadixArk Logo" class="framer-logo framer-detail-logo">
+      </a>
+    </header>
+
+    <article class="framer-detail-article">
+      <h1 class="framer-detail-title">Cost Models in Relational Databases</h1>
+
+      <div class="framer-detail-meta-top">
+        <span class="framer-detail-category">RadixArk Engineering Team</span>
+        <span class="framer-detail-date">Jun 03, 2026</span>
+      </div>
+
+      <div class="framer-detail-featured-image">
+        
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Cost Models in Relational Databases">
+      </div>
+      
+      <div class="framer-detail-body">
+        <p>When you execute a <code>SELECT</code> statement SQL query, the database engine doesn&rsquo;t just run it. It builds an Abstract Syntax Tree and calculates the &ldquo;cost&rdquo; of multiple execution plans using mathematical heuristics.</p>
+<h3 id="disk-io-vs-cpu-cost">Disk I/O vs CPU Cost</h3>
+<p>The total cost of a query plan is typically modeled as a linear combination of physical disk reads and CPU operations:</p>
+$$
+\text{Cost} = (W_{\text{io}} \cdot N_{\text{pages}}) + (W_{\text{cpu}} \cdot N_{\text{tuples}})
+$$<p>Where \( W_{\text{io}} \) is the assigned weight for fetching a page from disk, and \( W_{\text{cpu}} \) is the weight for evaluating a tuple in memory.</p>
+<h3 id="join-estimation-formula">Join Estimation Formula</h3>
+<p>When joining two massive tables, the query optimizer must estimate the cardinality (number of rows) of the output to decide between a Nested Loop, Hash Join, or Merge Join. For an equi-join on a foreign key, the estimated size is:</p>
+\[ \text{Est}(A \bowtie B) = \frac{|A| \times |B|}{\max(V(A, f), V(B, f))} \]<p>Where \( |A| \) represents the cardinality of table A, and \( V(A, f) \) represents the number of distinct values in the join column. Understanding this formula is critical for indexing strategies.</p>
+
+      </div>
+    </article>
+  </div>
+
+  <div class="framer-related-section">
+      <div class="framer-related-header">
+        <h3>Check this too</h3>
+        <a href="/blog/">See all blogs</a>
+      </div>
+      <div class="framer-related-grid">
+        
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/10-relativity-tensors/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Consistent Hashing in Load Balancers">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">Consistent Hashing in Load Balancers</h4>
+            <span class="framer-related-meta">Jun 25, 2026 • Infrastructure Core</span>
+          </div>
+        </a>
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/09-bellman-equation/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Grover&#39;s Algorithm: Quantum Database Search">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">Grover&#39;s Algorithm: Quantum Database Search</h4>
+            <span class="framer-related-meta">Jun 20, 2026 • Quantum Software Lab</span>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <footer class="framer-footer framer-footer--home">
+      <span class="framer-footer-copy">Copyright. RadixArk @2025</span>
+      <nav class="framer-footer-links">
+        <a class="framer-footer-link" href="https://job-boards.greenhouse.io/radixark" target="_blank" rel="noopener noreferrer">Join Us</a>
+        <a class="framer-footer-link" href="/blog/">Blog</a>
+        <a class="framer-footer-link" href="mailto:contact@radixark.ai">Contact</a>
+      </nav>
+    </footer>
+  </section>
+
+    
+  </body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on RadixArk Blog</title>
+    <link>http://localhost:55504/tags/algorithms/</link>
+    <description>Recent content in Algorithms on RadixArk Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55504/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grover&#39;s Algorithm: Quantum Database Search</title>
+      <link>http://localhost:55504/blog/09-bellman-equation/</link>
+      <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/09-bellman-equation/</guid>
+      <description>&lt;p&gt;If you have an unsorted database with \( N \) entries, a classical linear search takes \( O(N) \) time. In 1996, Lov Grover introduced a quantum algorithm that performs this search in \( O(\sqrt{N}) \) time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;amplitude-amplification&#34;&gt;Amplitude Amplification&lt;/h3&gt;&#xA;&lt;p&gt;Let \( N = 2^n \) be the size of the search space, defined by an index \( x \in \{0, 1\}^n \). Let \( \omega \) be the target item we are searching for. We define an oracle function \( f(x) \):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Graph Theory in Network Routing (Dijkstra)</title>
+      <link>http://localhost:55504/blog/07-fourier-transform/</link>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/blog/07-fourier-transform/</guid>
+      <description>&lt;p&gt;Every time an HTTP request leaves your device, it traverses a complex graph of autonomous systems. Protocols like OSPF use Dijkstra&amp;rsquo;s algorithm to calculate the absolute shortest path mathematically.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-weighted-graph&#34;&gt;The Weighted Graph&lt;/h3&gt;&#xA;&lt;p&gt;Let the network be a weighted directed graph \( G = (V, E) \), where \( V \) is the set of router nodes and \( E \) is the set of edges (fiber links). The weight function maps edges to real-number costs, often based on latency or bandwidth:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

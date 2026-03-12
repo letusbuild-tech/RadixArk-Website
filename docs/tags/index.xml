@@ -2,122 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/</link>
+    <link>http://localhost:55504/tags/</link>
     <description>Recent content in Tags on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:55504/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Debug</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/debug/</link>
+      <title>Backend</title>
+      <link>http://localhost:55504/tags/backend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/debug/</guid>
+      <guid>http://localhost:55504/tags/backend/</guid>
       <description></description>
     </item>
     <item>
-      <title>Infrastructure</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/infrastructure/</link>
+      <title>Scaling</title>
+      <link>http://localhost:55504/tags/scaling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/infrastructure/</guid>
+      <guid>http://localhost:55504/tags/scaling/</guid>
       <description></description>
     </item>
     <item>
-      <title>Intelligence</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/intelligence/</link>
+      <title>Algorithms</title>
+      <link>http://localhost:55504/tags/algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/intelligence/</guid>
+      <guid>http://localhost:55504/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
-      <title>Radixark</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/radixark/</link>
+      <title>Quantum</title>
+      <link>http://localhost:55504/tags/quantum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/radixark/</guid>
+      <guid>http://localhost:55504/tags/quantum/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/</link>
+      <title>Math</title>
+      <link>http://localhost:55504/tags/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ai/</guid>
+      <guid>http://localhost:55504/tags/math/</guid>
       <description></description>
     </item>
     <item>
-      <title>Craft</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/craft/</link>
+      <title>Signals</title>
+      <link>http://localhost:55504/tags/signals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/craft/</guid>
+      <guid>http://localhost:55504/tags/signals/</guid>
       <description></description>
     </item>
     <item>
-      <title>Design</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/design/</link>
+      <title>Software</title>
+      <link>http://localhost:55504/tags/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/design/</guid>
+      <guid>http://localhost:55504/tags/software/</guid>
       <description></description>
     </item>
     <item>
-      <title>Performance</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/performance/</link>
+      <title>Networks</title>
+      <link>http://localhost:55504/tags/networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/performance/</guid>
+      <guid>http://localhost:55504/tags/networks/</guid>
       <description></description>
     </item>
     <item>
-      <title>Ux</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ux/</link>
+      <title>Distributed</title>
+      <link>http://localhost:55504/tags/distributed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/ux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Finance</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/finance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/finance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Product</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product/</guid>
+      <guid>http://localhost:55504/tags/distributed/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/systems/</link>
+      <link>http://localhost:55504/tags/systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/systems/</guid>
+      <guid>http://localhost:55504/tags/systems/</guid>
       <description></description>
     </item>
     <item>
-      <title>Focus</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/focus/</link>
+      <title>Crypto</title>
+      <link>http://localhost:55504/tags/crypto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/focus/</guid>
+      <guid>http://localhost:55504/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
-      <title>Product-Design</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product-design/</link>
+      <title>Security</title>
+      <link>http://localhost:55504/tags/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/product-design/</guid>
+      <guid>http://localhost:55504/tags/security/</guid>
       <description></description>
     </item>
     <item>
-      <title>Automation</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/automation/</link>
+      <title>Ml</title>
+      <link>http://localhost:55504/tags/ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/automation/</guid>
+      <guid>http://localhost:55504/tags/ml/</guid>
       <description></description>
     </item>
     <item>
-      <title>Human-Centered-Design</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/human-centered-design/</link>
+      <title>Optimization</title>
+      <link>http://localhost:55504/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-blog-test/tags/human-centered-design/</guid>
+      <guid>http://localhost:55504/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graphics</title>
+      <link>http://localhost:55504/tags/graphics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/graphics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rendering</title>
+      <link>http://localhost:55504/tags/rendering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/rendering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Database</title>
+      <link>http://localhost:55504/tags/database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/database/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sql</title>
+      <link>http://localhost:55504/tags/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/sql/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>http://localhost:55504/tags/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>http://localhost:55504/tags/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:55504/tags/architecture/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,13 +1,15 @@
-baseURL = "https://ignasius-jpeg.github.io/RadixArk-blog-test/"
+baseURL = "http://localhost:55504/"
 languageCode = "en-us"
 title = "RadixArk Blog"
-publishDir = "docs"
 buildFuture = true
 
 [params]
   brand = "RadixArk"
   math = true
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [markup]
   [markup.goldmark]

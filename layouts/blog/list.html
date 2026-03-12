@@ -1,0 +1,70 @@
+{{ define "main" }}
+{{ $homeURL := replaceRE "^(https?://[^/]+).*$" "$1/" site.BaseURL }}
+
+<nav class="blog-navbar">
+  <a href="{{ $homeURL }}">
+    <img src="{{ "landing/images/RadixArk-Wordmark-Full.svg" | relURL }}" alt="RadixArk" class="blog-navbar-logo">
+  </a>
+  <a href="https://platform.radixark.ai/waitlist" target="_blank" rel="noopener noreferrer" class="blog-navbar-cta">Sign Up</a>
+</nav>
+
+<!-- Framer Replica Blog Section (Fully Scoped) -->
+<section class="framer-blog-section blog-navbar-offset">
+  <!-- Light Rays Effect component (ReactBits WebGL) -->
+  <div class="framer-light-rays" id="reactbits-lightrays"></div>
+  
+  <div class="framer-background-glow framer-left-glow"></div>
+  <div class="framer-background-glow framer-right-glow"></div>
+  <div class="framer-background-glow framer-top-glow"></div>
+
+  <div class="framer-container">
+    <header class="framer-header">
+      <img src="{{ "brand.png" | relURL }}" alt="RadixArk Logo" class="framer-logo">
+      <h1>Ideas, Research &amp; Updates</h1>
+      <p class="framer-subtitle">Thoughts on AI systems, product craft, infrastructure, and the work behind what we build.</p>
+    </header>
+
+    <main class="framer-blog-grid">
+      {{ range $index, $page := .Pages }}
+      {{/* Cycle through some abstract images if none provided in frontmatter */}}
+      {{ $images := slice
+      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2000&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=2000&auto=format&fit=crop"
+      }}
+      {{ $len := len .Permalink }}
+      {{ $imgIndex := mod $len (len $images) }}
+      {{ $fallbackImage := index $images $imgIndex }}
+
+      <a href="{{ .RelPermalink }}" class="framer-blog-card">
+        <div class="framer-card-image">
+          <img src="{{ with .Params.image }}{{ . }}{{ else }}{{ $fallbackImage }}{{ end }}" alt="{{ .Title }}">
+        </div>
+        <div class="framer-card-content">
+          <h2 class="framer-card-title">{{ .Title }}</h2>
+          <div class="framer-meta-container">
+            <span class="framer-card-meta">
+              {{ .Date.Format "Jan 02, 2006" }} • {{ with .Params.author }}{{ . }}{{ else }}RadixArk Team{{ end }}
+            </span>
+            <span class="framer-card-action">Read Post ↗</span>
+          </div>
+        </div>
+      </a>
+      {{ end }}
+    </main>
+  </div>
+
+  <footer class="framer-footer framer-footer--home">
+    <span class="framer-footer-copy">Copyright. RadixArk @2025</span>
+    <nav class="framer-footer-links">
+      <a class="framer-footer-link" href="https://job-boards.greenhouse.io/radixark" target="_blank" rel="noopener noreferrer">Join Us</a>
+      <a class="framer-footer-link" href="{{ "blog/" | relURL }}">Blog</a>
+      <a class="framer-footer-link" href="mailto:contact@radixark.ai">Contact</a>
+    </nav>
+  </footer>
+</section>
+<script type="module" src="{{ "lightrays.js" | relURL }}"></script>
+{{ end }}

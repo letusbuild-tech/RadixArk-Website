@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consistent Hashing in Load Balancers · RadixArk Blog</title>
+    <link rel="stylesheet" href="http://localhost:55504/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+  
+  
+  <body class="blog-page">
+    
+      
+
+
+<nav class="blog-navbar">
+  <a href="http://localhost:55504/">
+    <img src="/landing/images/RadixArk-Wordmark-Full.svg" alt="RadixArk" class="blog-navbar-logo">
+  </a>
+  <a href="https://platform.radixark.ai/waitlist" target="_blank" rel="noopener noreferrer" class="blog-navbar-cta">Sign Up</a>
+</nav>
+
+<section class="framer-blog-section framer-detail-section blog-navbar-offset">
+  
+  <div class="framer-background-glow framer-left-glow"></div>
+  <div class="framer-background-glow framer-right-glow"></div>
+  <div class="framer-background-glow framer-top-glow"></div>
+
+  <div class="framer-container framer-detail-container">
+    <header class="framer-header framer-detail-header">
+      <a href="/blog/" class="framer-back-link">← Back to blog</a>
+      <a href="http://localhost:55504/" style="display:block; text-decoration:none;">
+        <img src="/brand.png" alt="RadixArk Logo" class="framer-logo framer-detail-logo">
+      </a>
+    </header>
+
+    <article class="framer-detail-article">
+      <h1 class="framer-detail-title">Consistent Hashing in Load Balancers</h1>
+
+      <div class="framer-detail-meta-top">
+        <span class="framer-detail-category">RadixArk Engineering Team</span>
+        <span class="framer-detail-date">Jun 25, 2026</span>
+      </div>
+
+      <div class="framer-detail-featured-image">
+        
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Consistent Hashing in Load Balancers">
+      </div>
+      
+      <div class="framer-detail-body">
+        <p>When distributing millions of cache objects (like user sessions or image blobs) across \( N \) database servers, the simplest method is a modulo hash function:</p>
+$$
+\text{server\_idx} = \text{hash}(\text{object\_key}) \pmod{N}
+$$<h3 id="the-rehashing-problem">The Rehashing Problem</h3>
+<p>The equation above works perfectly until a server crashes, changing \( N \) to \( N-1 \). Suddenly, almost every object hashes to a completely different index. This causes massive cache misses and traffic spikes known as a &ldquo;thundering herd.&rdquo;</p>
+<h3 id="consistent-hashing-ring">Consistent Hashing Ring</h3>
+<p>Consistent hashing, implemented heavily in Memcached and DynamoDB, maps both servers and objects onto the same abstract circular space (a hash ring), typically defined modulo \( 2^{32} \):</p>
+\[ 0 \le \text{hash}(x) \le 2^{32}-1 \]<p>To find which server should store an object, the system hashes the object key to obtain an angle \( \theta \) on the ring, then searches clockwise for the nearest server node \( S \):</p>
+$$
+S_{target} = \min \{ S_i \in S \mid \text{hash}(S_i) \ge \text{hash}(\text{object}) \}
+$$<p>By wrapping the ring (if the object hash is greater than all server hashes, it maps to the first server), the software ensures that adding or removing a server only affects \( 1/N \) of the keys. The rest of the equations remain flawlessly stable, ensuring ultra-reliable backend routing.</p>
+
+      </div>
+    </article>
+  </div>
+
+  <div class="framer-related-section">
+      <div class="framer-related-header">
+        <h3>Check this too</h3>
+        <a href="/blog/">See all blogs</a>
+      </div>
+      <div class="framer-related-grid">
+        
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/09-bellman-equation/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Grover&#39;s Algorithm: Quantum Database Search">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">Grover&#39;s Algorithm: Quantum Database Search</h4>
+            <span class="framer-related-meta">Jun 20, 2026 • Quantum Software Lab</span>
+          </div>
+        </a>
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/08-rsa-cryptography/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="The Fast Fourier Transform in Audio Codecs">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">The Fast Fourier Transform in Audio Codecs</h4>
+            <span class="framer-related-meta">Jun 18, 2026 • Audio/Video Protocol Team</span>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <footer class="framer-footer framer-footer--home">
+      <span class="framer-footer-copy">Copyright. RadixArk @2025</span>
+      <nav class="framer-footer-links">
+        <a class="framer-footer-link" href="https://job-boards.greenhouse.io/radixark" target="_blank" rel="noopener noreferrer">Join Us</a>
+        <a class="framer-footer-link" href="/blog/">Blog</a>
+        <a class="framer-footer-link" href="mailto:contact@radixark.ai">Contact</a>
+      </nav>
+    </footer>
+  </section>
+
+    
+  </body>
+</html>
+

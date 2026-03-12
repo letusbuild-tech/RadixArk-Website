@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Rendering Equation in Computer Graphics · RadixArk Blog</title>
+    <link rel="stylesheet" href="http://localhost:55504/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  </head>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+  
+  
+  <body class="blog-page">
+    
+      
+
+
+<nav class="blog-navbar">
+  <a href="http://localhost:55504/">
+    <img src="/landing/images/RadixArk-Wordmark-Full.svg" alt="RadixArk" class="blog-navbar-logo">
+  </a>
+  <a href="https://platform.radixark.ai/waitlist" target="_blank" rel="noopener noreferrer" class="blog-navbar-cta">Sign Up</a>
+</nav>
+
+<section class="framer-blog-section framer-detail-section blog-navbar-offset">
+  
+  <div class="framer-background-glow framer-left-glow"></div>
+  <div class="framer-background-glow framer-right-glow"></div>
+  <div class="framer-background-glow framer-top-glow"></div>
+
+  <div class="framer-container framer-detail-container">
+    <header class="framer-header framer-detail-header">
+      <a href="/blog/" class="framer-back-link">← Back to blog</a>
+      <a href="http://localhost:55504/" style="display:block; text-decoration:none;">
+        <img src="/brand.png" alt="RadixArk Logo" class="framer-logo framer-detail-logo">
+      </a>
+    </header>
+
+    <article class="framer-detail-article">
+      <h1 class="framer-detail-title">The Rendering Equation in Computer Graphics</h1>
+
+      <div class="framer-detail-meta-top">
+        <span class="framer-detail-category">RadixArk Engineering Team</span>
+        <span class="framer-detail-date">Jun 05, 2026</span>
+      </div>
+
+      <div class="framer-detail-featured-image">
+        
+        
+        
+        
+        
+        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="The Rendering Equation in Computer Graphics">
+      </div>
+      
+      <div class="framer-detail-body">
+        <p>Modern video games and VFX engines (like Unreal Engine) have shifted from rasterization to real-time Ray Tracing. This entire industry is built upon simulating light, governed by a single, recursive integral equation.</p>
+<h3 id="the-rendering-equation">The Rendering Equation</h3>
+<p>Introduced by James Kajiya in 1986, it calculates the total amount of light \( L_o \) leaving a point \( x \) on a surface in direction \( \omega_o \):</p>
+$$
+L_o(x, \omega_o, \lambda, t) = L_e(x, \omega_o, \lambda, t) + \int_{\Omega} f_r(x, \omega_i, \omega_o, \lambda, t) L_i(x, \omega_i, \lambda, t) (\omega_i \cdot n) d\omega_i
+$$<p>Where:</p>
+<ul>
+<li>\( L_e \) is the emitted light (if the object is a lamp or sun).</li>
+<li>\( f_r \) is the Bidirectional Reflectance Distribution Function (BRDF) (how the material scatters light).</li>
+<li>\( L_i \) is the incoming light from direction \( \omega_i \).</li>
+<li>\( (\omega_i \cdot n) \) is the attenuation due to the incident angle against the surface normal \( n \).</li>
+</ul>
+<h3 id="monte-carlo-integration">Monte Carlo Integration</h3>
+<p>Because this equation is a continuous integral over a hemisphere \( \Omega \), it cannot be solved analytically. Graphics engines approximate it using Monte Carlo integration:</p>
+\[ \int f(x) dx \approx \frac{1}{N} \sum_{i=1}^{N} \frac{f(x_i)}{p(x_i)} \]<p>By shooting thousands of random rays and averaging their results, noise converges into an incredibly realistic, physically accurate image.</p>
+
+      </div>
+    </article>
+  </div>
+
+  <div class="framer-related-section">
+      <div class="framer-related-header">
+        <h3>Check this too</h3>
+        <a href="/blog/">See all blogs</a>
+      </div>
+      <div class="framer-related-grid">
+        
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/10-relativity-tensors/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Consistent Hashing in Load Balancers">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">Consistent Hashing in Load Balancers</h4>
+            <span class="framer-related-meta">Jun 25, 2026 • Infrastructure Core</span>
+          </div>
+        </a>
+        
+        
+        
+        
+        
+        
+
+        <a href="/blog/09-bellman-equation/" class="framer-related-card">
+          <div class="framer-related-image">
+             <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&amp;w=2000&amp;auto=format&amp;fit=crop" alt="Grover&#39;s Algorithm: Quantum Database Search">
+          </div>
+          <div class="framer-related-content">
+            <h4 class="framer-related-title">Grover&#39;s Algorithm: Quantum Database Search</h4>
+            <span class="framer-related-meta">Jun 20, 2026 • Quantum Software Lab</span>
+          </div>
+        </a>
+        
+      </div>
+    </div>
+
+    <footer class="framer-footer framer-footer--home">
+      <span class="framer-footer-copy">Copyright. RadixArk @2025</span>
+      <nav class="framer-footer-links">
+        <a class="framer-footer-link" href="https://job-boards.greenhouse.io/radixark" target="_blank" rel="noopener noreferrer">Join Us</a>
+        <a class="framer-footer-link" href="/blog/">Blog</a>
+        <a class="framer-footer-link" href="mailto:contact@radixark.ai">Contact</a>
+      </nav>
+    </footer>
+  </section>
+
+    
+  </body>
+</html>
+
