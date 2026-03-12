@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networks on RadixArk Blog</title>
-    <link>http://localhost:55504/tags/networks/</link>
+    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/networks/</link>
     <description>Recent content in Networks on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55504/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/networks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Graph Theory in Network Routing (Dijkstra)</title>
-      <link>http://localhost:55504/blog/07-fourier-transform/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/07-fourier-transform/</link>
       <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55504/blog/07-fourier-transform/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/07-fourier-transform/</guid>
       <description>&lt;p&gt;Every time an HTTP request leaves your device, it traverses a complex graph of autonomous systems. Protocols like OSPF use Dijkstra&amp;rsquo;s algorithm to calculate the absolute shortest path mathematically.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-weighted-graph&#34;&gt;The Weighted Graph&lt;/h3&gt;&#xA;&lt;p&gt;Let the network be a weighted directed graph \( G = (V, E) \), where \( V \) is the set of router nodes and \( E \) is the set of edges (fiber links). The weight function maps edges to real-number costs, often based on latency or bandwidth:&lt;/p&gt;</description>
     </item>
   </channel>

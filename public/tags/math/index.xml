@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on RadixArk Blog</title>
-    <link>http://localhost:55504/tags/math/</link>
+    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/math/</link>
     <description>Recent content in Math on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55504/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fast Fourier Transform in Audio Codecs</title>
-      <link>http://localhost:55504/blog/08-rsa-cryptography/</link>
+      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/08-rsa-cryptography/</link>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55504/blog/08-rsa-cryptography/</guid>
+      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/08-rsa-cryptography/</guid>
       <description>&lt;p&gt;Transmitting raw, uncompressed audio waves over the internet requires immense bandwidth. Software engineering solves this through Digital Signal Processing. To compress audio mathematically, we convert it from the Time Domain into the Frequency Domain.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-discrete-fourier-transform-dft&#34;&gt;The Discrete Fourier Transform (DFT)&lt;/h3&gt;&#xA;&lt;p&gt;The DFT converts a finite sequence of equally-spaced samples \( x_n \) into a same-length sequence of complex numbers \( X_k \) representing sinusoidal frequencies:&lt;/p&gt;&#xA;$$&#xA;X_k = \sum_{n=0}^{N-1} x_n \cdot e^{-i 2\pi k n / N} \quad k = 0, \dots, N-1&#xA;$$&lt;p&gt;Calculating this naively in software takes \( O(N^2) \) operations. For a standard 44.1kHz audio stream, this would destroy CPU performance.&lt;/p&gt;</description>
     </item>
   </channel>
