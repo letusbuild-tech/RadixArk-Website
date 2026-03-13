@@ -1,4 +1,4 @@
-# RadixArk Blog
+# RadixArk Website
 
 Situs RadixArk: **homepage** (landing “Ship AI for All”) + **blog** (artikel).
 
