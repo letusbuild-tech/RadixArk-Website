@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quantum on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/quantum/</link>
+    <link>http://localhost:55504/tags/quantum/</link>
     <description>Recent content in Quantum on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/tags/quantum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Grover&#39;s Algorithm: Quantum Database Search</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/09-bellman-equation/</link>
+      <link>http://localhost:55504/blog/09-bellman-equation/</link>
       <pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/09-bellman-equation/</guid>
+      <guid>http://localhost:55504/blog/09-bellman-equation/</guid>
       <description>&lt;p&gt;If you have an unsorted database with \( N \) entries, a classical linear search takes \( O(N) \) time. In 1996, Lov Grover introduced a quantum algorithm that performs this search in \( O(\sqrt{N}) \) time.&lt;/p&gt;&#xA;&lt;h3 id=&#34;amplitude-amplification&#34;&gt;Amplitude Amplification&lt;/h3&gt;&#xA;&lt;p&gt;Let \( N = 2^n \) be the size of the search space, defined by an index \( x \in \{0, 1\}^n \). Let \( \omega \) be the target item we are searching for. We define an oracle function \( f(x) \):&lt;/p&gt;</description>
     </item>
   </channel>

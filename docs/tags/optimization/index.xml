@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/optimization/</link>
+    <link>http://localhost:55504/tags/optimization/</link>
     <description>Recent content in Optimization on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stochastic Gradient Descent and Adam</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/04-gradient-descent/</link>
+      <link>http://localhost:55504/blog/04-gradient-descent/</link>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/04-gradient-descent/</guid>
+      <guid>http://localhost:55504/blog/04-gradient-descent/</guid>
       <description>&lt;p&gt;Training a massive neural network requires navigating a high-dimensional loss landscape to find the global minimum. We don&amp;rsquo;t solve this analytically; we use iterative software algorithms.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-gradient-descent-loop&#34;&gt;The Gradient Descent Loop&lt;/h3&gt;&#xA;&lt;p&gt;Given a software cost function \( J(\theta) \), the system computes the partial derivatives (gradients) using Backpropagation and updates the weights:&lt;/p&gt;&#xA;$$&#xA;\theta_{t+1} = \theta_t - \eta \nabla J(\theta_t)&#xA;$$&lt;h3 id=&#34;the-adam-optimizer&#34;&gt;The Adam Optimizer&lt;/h3&gt;&#xA;&lt;p&gt;Vanilla gradient descent is slow and gets stuck in local minima. Modern Deep Learning frameworks (TensorFlow, PyTorch) default to the Adam (Adaptive Moment Estimation) optimizer.&lt;/p&gt;</description>
     </item>
   </channel>

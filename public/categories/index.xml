@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/categories/</link>
+    <link>http://localhost:55504/categories/</link>
     <description>Recent content in Categories on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

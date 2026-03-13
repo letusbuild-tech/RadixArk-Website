@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/security/</link>
+    <link>http://localhost:55504/tags/security/</link>
     <description>Recent content in Security on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Elliptic Curve Cryptography in HTTPS</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/05-information-theory/</link>
+      <link>http://localhost:55504/blog/05-information-theory/</link>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/05-information-theory/</guid>
+      <guid>http://localhost:55504/blog/05-information-theory/</guid>
       <description>&lt;p&gt;While RSA dominated early internet security, modern TLS/HTTPS certificates almost exclusively use Elliptic Curve Cryptography (ECC) because it provides the same security with significantly smaller key sizes, saving bandwidth and CPU cycles.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-algebraic-curve&#34;&gt;The Algebraic Curve&lt;/h3&gt;&#xA;&lt;p&gt;An elliptic curve over a finite field \( \mathbb{F}_p \) is defined by the Weierstrass equation:&lt;/p&gt;&#xA;$$&#xA;y^2 = x^3 + ax + b \pmod{p}&#xA;$$&lt;p&gt;Where \( 4a^3 + 27b^2 \neq 0 \) (ensuring no singular points).&lt;/p&gt;</description>
     </item>
   </channel>

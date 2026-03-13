@@ -1,4 +1,4 @@
-baseURL = "https://ignasius-jpeg.github.io/RadixArk-Production/"
+baseURL = "http://localhost:55504/"
 languageCode = "en-us"
 title = "RadixArk Blog"
 buildFuture = true

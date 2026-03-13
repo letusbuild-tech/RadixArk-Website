@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Distributed on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/distributed/</link>
+    <link>http://localhost:55504/tags/distributed/</link>
     <description>Recent content in Distributed on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/distributed/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/tags/distributed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quorum Consensus: The Math of Distributed Systems</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/06-thermodynamics-entropy/</link>
+      <link>http://localhost:55504/blog/06-thermodynamics-entropy/</link>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/06-thermodynamics-entropy/</guid>
+      <guid>http://localhost:55504/blog/06-thermodynamics-entropy/</guid>
       <description>&lt;p&gt;When deploying databases globally, network partitions are inevitable. The CAP theorem guarantees we must choose between Consistency and Availability. To ensure strong consistency without a single point of failure, software utilizes Quorum Consensus.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-quorum-intersection-property&#34;&gt;The Quorum Intersection Property&lt;/h3&gt;&#xA;&lt;p&gt;For a system with \( N \) total replica nodes, we define a Read Quorum \( R \) and a Write Quorum \( W \). To ensure that every read operation sees the most recent write, the system must satisfy the intersection equation:&lt;/p&gt;</description>
     </item>
   </channel>

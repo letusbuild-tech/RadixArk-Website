@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sql on RadixArk Blog</title>
-    <link>https://ignasius-jpeg.github.io/RadixArk-Production/tags/sql/</link>
+    <link>http://localhost:55504/tags/sql/</link>
     <description>Recent content in Sql on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://ignasius-jpeg.github.io/RadixArk-Production/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55504/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cost Models in Relational Databases</title>
-      <link>https://ignasius-jpeg.github.io/RadixArk-Production/blog/02-navier-stokes/</link>
+      <link>http://localhost:55504/blog/02-navier-stokes/</link>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://ignasius-jpeg.github.io/RadixArk-Production/blog/02-navier-stokes/</guid>
+      <guid>http://localhost:55504/blog/02-navier-stokes/</guid>
       <description>&lt;p&gt;When you execute a &lt;code&gt;SELECT&lt;/code&gt; statement SQL query, the database engine doesn&amp;rsquo;t just run it. It builds an Abstract Syntax Tree and calculates the &amp;ldquo;cost&amp;rdquo; of multiple execution plans using mathematical heuristics.&lt;/p&gt;&#xA;&lt;h3 id=&#34;disk-io-vs-cpu-cost&#34;&gt;Disk I/O vs CPU Cost&lt;/h3&gt;&#xA;&lt;p&gt;The total cost of a query plan is typically modeled as a linear combination of physical disk reads and CPU operations:&lt;/p&gt;&#xA;$$&#xA;\text{Cost} = (W_{\text{io}} \cdot N_{\text{pages}}) + (W_{\text{cpu}} \cdot N_{\text{tuples}})&#xA;$$&lt;p&gt;Where \( W_{\text{io}} \) is the assigned weight for fetching a page from disk, and \( W_{\text{cpu}} \) is the weight for evaluating a tuple in memory.&lt;/p&gt;</description>
     </item>
   </channel>
