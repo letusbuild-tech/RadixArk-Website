@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on RadixArk Blog</title>
-    <link>http://localhost:55504/tags/architecture/</link>
+    <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/architecture/</link>
     <description>Recent content in Architecture on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55504/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://letusbuild-tech.github.io/RadixArk-Website/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Mathematics of Transformer Topologies</title>
-      <link>http://localhost:55504/blog/01-attention-mechanisms/</link>
+      <link>https://letusbuild-tech.github.io/RadixArk-Website/blog/01-attention-mechanisms/</link>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55504/blog/01-attention-mechanisms/</guid>
+      <guid>https://letusbuild-tech.github.io/RadixArk-Website/blog/01-attention-mechanisms/</guid>
       <description>&lt;p&gt;At RadixArk, our inference engine is built around the fundamental mathematical operations of Large Language Models (LLMs). The core of these models—from GPT to BERT—is the Transformer architecture.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-core-equation&#34;&gt;The Core Equation&lt;/h3&gt;&#xA;&lt;p&gt;The hardware must optimize the execution of Scaled Dot-Product Attention. Instead of processing sequence data linearly like RNNS, Transformers compute relationships globally:&lt;/p&gt;&#xA;$$&#xA;\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V&#xA;$$&lt;p&gt;Where \( Q \), \( K \), and \( V \) represent the Query, Key, and Value matrices respectively, and \( d_k \) is the embedding dimension.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -19,9 +19,9 @@ Situs RadixArk: **homepage** (landing “Ship AI for All”) + **blog** (artikel
 ## Perintah
 
 ```bash
-# Dev server (homepage di /, blog di /blog)
-hugo server
+# Dev server lokal (pakai override baseURL localhost)
+hugo server --config hugo.toml,hugo.local.toml
 
-# Build untuk production (output di docs/)
-hugo
+# Build production untuk GitHub Pages (output di docs/)
+hugo -d docs
 ```

@@ -1,4 +1,4 @@
-baseURL = "http://localhost:55504/"
+baseURL = "https://letusbuild-tech.github.io/RadixArk-Website/"
 languageCode = "en-us"
 title = "RadixArk Blog"
 buildFuture = true
