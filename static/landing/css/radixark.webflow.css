@@ -244,6 +244,12 @@
 }
 
 @media screen and (max-width: 991px) {
+  .rive,
+  .rive canvas {
+    pointer-events: none;
+    touch-action: pan-y;
+  }
+
   .hero-section .image {
     width: 65%;
   }
