@@ -5,7 +5,7 @@ author: "Infrastructure Core"
 tags: ["distributed", "systems"]
 description: "How protocols like Paxos and Raft guarantee data consistency across global data centers."
 math: true
-image: "https://images.unsplash.com/photo-1620121692029-d088224ddc74?q=80&w=2000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 When deploying databases globally, network partitions are inevitable. The CAP theorem guarantees we must choose between Consistency and Availability. To ensure strong consistency without a single point of failure, software utilizes Quorum Consensus.

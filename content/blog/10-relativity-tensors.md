@@ -5,7 +5,7 @@ author: "Infrastructure Core"
 tags: ["backend", "scaling"]
 description: "The hashing formula that prevents mass cache invalidation when servers crash."
 math: true
-image: "https://images.unsplash.com/photo-1634152962476-4b8a00e1915c?q=80&w=2000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1462331321792-cc44368b8894?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 When distributing millions of cache objects (like user sessions or image blobs) across \( N \) database servers, the simplest method is a modulo hash function:

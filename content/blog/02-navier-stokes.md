@@ -5,7 +5,7 @@ author: "Data Engineering Team"
 tags: ["database", "sql"]
 description: "The mathematical heuristic behind how RDBMS engines choose the fastest query execution plan."
 math: true
-image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 When you execute a `SELECT` statement SQL query, the database engine doesn't just run it. It builds an Abstract Syntax Tree and calculates the "cost" of multiple execution plans using mathematical heuristics.

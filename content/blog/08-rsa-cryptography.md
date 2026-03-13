@@ -5,7 +5,7 @@ author: "Audio/Video Protocol Team"
 tags: ["math", "software", "signals"]
 description: "The algorithmic breakthrough that makes MP3s, WebRTC, and VoIP possible."
 math: true
-image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 Transmitting raw, uncompressed audio waves over the internet requires immense bandwidth. Software engineering solves this through Digital Signal Processing. To compress audio mathematically, we convert it from the Time Domain into the Frequency Domain.

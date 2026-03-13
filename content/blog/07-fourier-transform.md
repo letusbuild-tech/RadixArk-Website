@@ -5,7 +5,7 @@ author: "Network Engineering"
 tags: ["networks", "algorithms"]
 description: "How internet routers mathematically determine the shortest path for your packets."
 math: true
-image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 Every time an HTTP request leaves your device, it traverses a complex graph of autonomous systems. Protocols like OSPF use Dijkstra's algorithm to calculate the absolute shortest path mathematically.

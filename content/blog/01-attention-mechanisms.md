@@ -5,7 +5,7 @@ author: "AI Core Team"
 tags: ["ai", "architecture"]
 description: "How the Scaled Dot-Product equation revolutionized Natural Language Processing and hardware design."
 math: true
-image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1507146426996-ef05306b995a?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 At RadixArk, our inference engine is built around the fundamental mathematical operations of Large Language Models (LLMs). The core of these models—from GPT to BERT—is the Transformer architecture.

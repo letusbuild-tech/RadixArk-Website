@@ -5,7 +5,7 @@ author: "Quantum Software Lab"
 tags: ["quantum", "algorithms"]
 description: "How software written for Qubits can search unstructured databases quadratically faster."
 math: true
-image: "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=2000&auto=format&fit=crop"
+image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?q=80&auto=format&fit=crop&w=1920&h=1080"
 ---
 
 If you have an unsorted database with \( N \) entries, a classical linear search takes \( O(N) \) time. In 1996, Lov Grover introduced a quantum algorithm that performs this search in \( O(\sqrt{N}) \) time.
