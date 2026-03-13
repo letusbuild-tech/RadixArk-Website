@@ -1,8 +1,6 @@
 {{ define "main" }}
-{{ $homeURL := replaceRE "^(https?://[^/]+).*$" "$1/" site.BaseURL }}
-
 <nav class="blog-navbar">
-  <a href="{{ $homeURL }}">
+  <a href="{{ site.Home.RelPermalink }}">
     <img src="{{ "landing/images/RadixArk-Wordmark-Full.svg" | relURL }}" alt="RadixArk" class="blog-navbar-logo">
   </a>
   <a href="https://platform.radixark.ai/waitlist" target="_blank" rel="noopener noreferrer" class="blog-navbar-cta">Sign Up</a>
