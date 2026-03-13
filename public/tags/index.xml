@@ -2,150 +2,150 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on RadixArk Blog</title>
-    <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/</link>
+    <link>http://localhost/tags/</link>
     <description>Recent content in Tags on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://letusbuild-tech.github.io/RadixArk-Website/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backend</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/backend/</link>
+      <link>http://localhost/tags/backend/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/backend/</guid>
+      <guid>http://localhost/tags/backend/</guid>
       <description></description>
     </item>
     <item>
       <title>Scaling</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/scaling/</link>
+      <link>http://localhost/tags/scaling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/scaling/</guid>
+      <guid>http://localhost/tags/scaling/</guid>
       <description></description>
     </item>
     <item>
       <title>Algorithms</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/algorithms/</link>
+      <link>http://localhost/tags/algorithms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/algorithms/</guid>
+      <guid>http://localhost/tags/algorithms/</guid>
       <description></description>
     </item>
     <item>
       <title>Quantum</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/quantum/</link>
+      <link>http://localhost/tags/quantum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/quantum/</guid>
+      <guid>http://localhost/tags/quantum/</guid>
       <description></description>
     </item>
     <item>
       <title>Math</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/math/</link>
+      <link>http://localhost/tags/math/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/math/</guid>
+      <guid>http://localhost/tags/math/</guid>
       <description></description>
     </item>
     <item>
       <title>Signals</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/signals/</link>
+      <link>http://localhost/tags/signals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/signals/</guid>
+      <guid>http://localhost/tags/signals/</guid>
       <description></description>
     </item>
     <item>
       <title>Software</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/software/</link>
+      <link>http://localhost/tags/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/software/</guid>
+      <guid>http://localhost/tags/software/</guid>
       <description></description>
     </item>
     <item>
       <title>Networks</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/networks/</link>
+      <link>http://localhost/tags/networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/networks/</guid>
+      <guid>http://localhost/tags/networks/</guid>
       <description></description>
     </item>
     <item>
       <title>Distributed</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/distributed/</link>
+      <link>http://localhost/tags/distributed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/distributed/</guid>
+      <guid>http://localhost/tags/distributed/</guid>
       <description></description>
     </item>
     <item>
       <title>Systems</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/systems/</link>
+      <link>http://localhost/tags/systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/systems/</guid>
+      <guid>http://localhost/tags/systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Crypto</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/crypto/</link>
+      <link>http://localhost/tags/crypto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/crypto/</guid>
+      <guid>http://localhost/tags/crypto/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/security/</link>
+      <link>http://localhost/tags/security/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/security/</guid>
+      <guid>http://localhost/tags/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Ml</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/ml/</link>
+      <link>http://localhost/tags/ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/ml/</guid>
+      <guid>http://localhost/tags/ml/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/optimization/</link>
+      <link>http://localhost/tags/optimization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/optimization/</guid>
+      <guid>http://localhost/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Graphics</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/graphics/</link>
+      <link>http://localhost/tags/graphics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/graphics/</guid>
+      <guid>http://localhost/tags/graphics/</guid>
       <description></description>
     </item>
     <item>
       <title>Rendering</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/rendering/</link>
+      <link>http://localhost/tags/rendering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/rendering/</guid>
+      <guid>http://localhost/tags/rendering/</guid>
       <description></description>
     </item>
     <item>
       <title>Database</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/database/</link>
+      <link>http://localhost/tags/database/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/database/</guid>
+      <guid>http://localhost/tags/database/</guid>
       <description></description>
     </item>
     <item>
       <title>Sql</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/sql/</link>
+      <link>http://localhost/tags/sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/sql/</guid>
+      <guid>http://localhost/tags/sql/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/ai/</link>
+      <link>http://localhost/tags/ai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/ai/</guid>
+      <guid>http://localhost/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Architecture</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/architecture/</link>
+      <link>http://localhost/tags/architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/tags/architecture/</guid>
+      <guid>http://localhost/tags/architecture/</guid>
       <description></description>
     </item>
   </channel>

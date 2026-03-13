@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backend on RadixArk Blog</title>
-    <link>https://letusbuild-tech.github.io/RadixArk-Website/tags/backend/</link>
+    <link>http://localhost/tags/backend/</link>
     <description>Recent content in Backend on RadixArk Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jun 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://letusbuild-tech.github.io/RadixArk-Website/tags/backend/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost/tags/backend/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Consistent Hashing in Load Balancers</title>
-      <link>https://letusbuild-tech.github.io/RadixArk-Website/blog/10-relativity-tensors/</link>
+      <link>http://localhost/blog/10-relativity-tensors/</link>
       <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://letusbuild-tech.github.io/RadixArk-Website/blog/10-relativity-tensors/</guid>
+      <guid>http://localhost/blog/10-relativity-tensors/</guid>
       <description>&lt;p&gt;When distributing millions of cache objects (like user sessions or image blobs) across \( N \) database servers, the simplest method is a modulo hash function:&lt;/p&gt;&#xA;$$&#xA;\text{server\_idx} = \text{hash}(\text{object\_key}) \pmod{N}&#xA;$$&lt;h3 id=&#34;the-rehashing-problem&#34;&gt;The Rehashing Problem&lt;/h3&gt;&#xA;&lt;p&gt;The equation above works perfectly until a server crashes, changing \( N \) to \( N-1 \). Suddenly, almost every object hashes to a completely different index. This causes massive cache misses and traffic spikes known as a &amp;ldquo;thundering herd.&amp;rdquo;&lt;/p&gt;</description>
     </item>
   </channel>
